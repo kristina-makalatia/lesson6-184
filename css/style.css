@@ -1,0 +1,51 @@
+.container {
+    width: 1336px;
+    margin: 0 auto; 
+    background-color: lightgreen;  
+}
+.text-block {
+    width: 760px;
+    margin: 0 auto;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.team-block {
+    width: 310px;
+    height: 430px;
+    border: 1px solid #000;
+}
+.social {
+    width: 36px;
+    height: 36px;
+    background-color: #F2F4F7;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons {
+    display: flex;
+    column-gap: 16px;
+}
+.team-info {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 48px 32px; */
+    justify-content: space-between;
+    align-content: space-between;
+    height: 908px;
+}
+
+.team-block img {
+    width: 100%;
+}
+.team-block.red {
+    background-color: red;
+}
+.fa-facebook-f {
+    color: blue;
+}
+.youtube {
+    color: red;
+}
